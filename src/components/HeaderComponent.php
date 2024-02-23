@@ -25,7 +25,7 @@ class HeaderComponent{
             <p class="lead">The micro framework I've devised for crafting static sites and landing pages with ease.</p>
             <hr class="my-4">
             <p>Optimized for projects with a few pages and manageable content through GraphQL-based Headless CMS. Learn more about how to get started:</p>
-            <a class="btn btn-primary btn-lg" href="#" role="button">Start Here</a>
+            <a class="btn btn-primary btn-lg" href="https://github.com/fellarrusto/cView" role="button">Start Here</a>
         </div>
 
         <div class="row">

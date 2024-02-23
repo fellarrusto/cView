@@ -24,7 +24,7 @@
             <p class="float-right">
                 <a href="#">Back to Top</a>
             </p>
-            <p>cView is an open source project. Visit the <a href="#">GitHub repository</a> to contribute or download the code.</p>
+            <p>cView is an open source project. Visit the <a href="https://github.com/fellarrusto/cView">GitHub repository</a> to contribute or download the code.</p>
         </div>
     </footer>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
