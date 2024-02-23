@@ -5,8 +5,8 @@ $allowedPages = [
     '/home' => 'views/home.php',
 ];
 
-// Ottieni il path dalla richiesta
-$requestPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
+$requestUri = explode('?', $_SERVER['REQUEST_URI'], 2)[0];
+$requestPath = parse_url($requestUri, PHP_URL_PATH);
 
 // Controlla se la pagina richiesta è nell'elenco delle pagine consentite
 if (array_key_exists($requestPath, $allowedPages)) {
