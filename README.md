@@ -26,29 +26,54 @@ To get started with cView, follow these steps:
    ```bash
    cd cView
    ```
-5. **Configure your environment** by updating the `.env` file with your specific settings, such as your Headless CMS API keys and endpoints.
-
-6. **Start your development server**:
-
-   ```bash
-   php -S localhost:8000
-   ```
-
-   Navigate to `http://localhost:8000` in your web browser to see the project live.
-
 ## Project Structure
 
 - `core/`: Core functionalities of the framework.
 - `src/components/`: Reusable components.
-- `views/`: Templates and pages.
+- `src/datalinks/`: Reusable components.
+- `views/`: Pages.
 - `assets/`: Static files like stylesheets, JavaScript, and images.
+
+## Basic Components Overview
+
+In cView framework, the structure of a project is built around a few key types of components, each serving a specific purpose in the development of a web application. Here's a brief overview:
+
+### Pages
+Pages are essentially HTML pages that serve as the foundation of the site. They act as the entry points for different sections of your web application, rendering the content and structure defined within them.
+
+### Components
+Components are parts of the site that are data-driven. They retrieve data from GraphQL APIs and render the component based on this data. Components are reusable and can be used across different pages to maintain a consistent look and feel while displaying dynamic content.
+
+### Static Components
+Static Components are similar to regular components but do not depend on data obtained from APIs. They are used for parts of the site that remain constant, such as headers, footers, or navigation bars. Static components help in maintaining consistency across the site without the need for dynamic data fetching.
+
+### Datalinks
+Datalinks are objects that allow fetching data from APIs without rendering any visual component. They are used within pages for fetching generic data that can be passed to components for rendering. Datalinks separate the data fetching logic from the visual presentation, making the components more modular and reusable.
+
 
 ## Creating a New Page
 
-To create a new page:
+   ```bash
+   python create.py page PageName
+   ```
 
-1. Add a new PHP file in the `views/` directory.
-2. Register your new page in the `$allowedPages` array within `index.php`.
+## Adding a new component
+
+   ```bash
+   python create.py component ComponentName
+   ```
+
+## Adding a new static component
+
+   ```bash
+   python create.py staticcomponent StaticComponentName
+   ```
+
+# Adding a new datalink
+
+   ```bash
+   python create.py datalink DatalinkName
+   ```
 
 ## Contributing
 
