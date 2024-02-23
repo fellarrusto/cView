@@ -22,7 +22,7 @@ class HeaderComponent{
         <div class="jumbotron text-center">
             <img src="<?= htmlspecialchars($logoPath) ?>" alt="Logo" class="mb-4" style="max-height: 100px;">
             <h1 class="display-4">Welcome to cView!</h1>
-            <p class="lead">The micro framework I've devised for crafting static sites and landing pages with ease.</p>
+            <p class="lead">The micro framework designed for crafting static sites and landing pages with ease.</p>
             <hr class="my-4">
             <p>Optimized for projects with a few pages and manageable content through GraphQL-based Headless CMS. Learn more about how to get started:</p>
             <a class="btn btn-primary btn-lg" href="https://github.com/fellarrusto/cView" role="button">Start Here</a>
