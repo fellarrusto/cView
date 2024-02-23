@@ -1,3 +1,6 @@
+![Logo cView](/assets/img/logo.png)
+
+
 # cView Framework
 
 Welcome to cView, the micro-framework designed for crafting static sites and landing pages with ease. Optimized for projects that require a few pages and manageable content through a GraphQL-based Headless CMS, cView aims to simplify your web development process.
