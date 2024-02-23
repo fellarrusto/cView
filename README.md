@@ -23,17 +23,9 @@ To get started with cView, follow these steps:
    ```bash
    cd cView
    ```
+5. **Configure your environment** by updating the `.env` file with your specific settings, such as your Headless CMS API keys and endpoints.
 
-3. **Install dependencies** (if any):
-
-   ```bash
-   composer install
-   # or any other command that fits your project setup
-   ```
-
-4. **Configure your environment** by updating the `.env` file with your specific settings, such as your Headless CMS API keys and endpoints.
-
-5. **Start your development server**:
+6. **Start your development server**:
 
    ```bash
    php -S localhost:8000
